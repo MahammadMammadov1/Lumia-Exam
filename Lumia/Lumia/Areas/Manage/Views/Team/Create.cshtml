@@ -1,0 +1,36 @@
+﻿@model Team
+
+<div class="container-fluid">
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label asp-for="Fullname" class="form-label"> Fullname</label>
+            <input asp-for="Fullname" class="form-control">
+            <span asp-validation-for="Fullname"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Profession" class="form-label">Profession</label>
+            <input asp-for="Profession" class="form-control">
+            <span asp-validation-for="Profession"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label">Description</label>
+            <input asp-for="Description" class="form-control">
+            <span asp-validation-for="Description"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="InstagramUrl" class="form-label">InstagramUrl</label>
+            <input asp-for="InstagramUrl" class="form-control">
+            <span asp-validation-for="InstagramUrl"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="FormFile" class="form-label">Image</label>
+            <input asp-for="FormFile" class="form-control">
+            <span asp-validation-for="FormFile"></span>
+        </div>
+        <div class="mb-3 form-check">
+            <input asp-for="IsDeleted" type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label asp-for="IsDeleted" class="form-check-label" for="exampleCheck1">IsDeleted</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>

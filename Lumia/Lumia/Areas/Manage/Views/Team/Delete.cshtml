@@ -1,0 +1,20 @@
+﻿@model Team
+<form method="post">
+    <div class="container-fluid">
+        <div class="card" style="width: 18rem;">
+            <img src="~/Uploads/Teams/@Model.ImageUrl" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">FullName:@Model.Fullname</h5>
+                <p class="card-text">Desc:@Model.Description</p>
+                <p class="card-text">Profession:@Model.Profession</p>
+                <p class="card-text">InstaUrl:@Model.InstagramUrl</p>
+
+            </div>
+            <div>
+                <button type="submit" class="btn btn-danger">Delete</button>
+                <a asp-action="index" asp-controller="team" class="btn btn-primary">Go back</a>
+            </div>
+
+        </div>
+    </div>
+</form>

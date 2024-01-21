@@ -1,0 +1,69 @@
+﻿@using Lumia.PaginatedList;
+@model PaginatedList<Team>
+@{
+    int counter = 0;
+}
+<div class="container-fluid row text-align-center justify-content-between">
+    <h5>Team Page</h5>
+    <a asp-action="create" asp-controller="team" class="btn btn-success">Create</a>
+</div>
+
+<div class="container-fluid">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Fullname</th>
+                <th scope="col">Profession</th>
+                <th scope="col">Description</th>
+                <th scope="col">InstaUrl</th>
+                <th scope="col">Image</th>
+                <th scope="col">IsDeleted</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                counter++;
+                <tr>
+                    
+                    <th scope="row">@counter</th>
+                    <td>@item.Fullname</td>
+                    <td>@item.Profession</td>
+                    <td>@item.Description</td>
+                    <td>@item.InstagramUrl</td>
+                    <td><img width="60px" src="~/Uploads/Teams/@item.ImageUrl" /></td>
+                    <td>@item.IsDeleted</td>
+                    <td>
+                        <a asp-action="update" asp-controller="team" asp-route-id="@item.Id" class="btn btn-primary">Update</a>
+                        <a asp-action="softdelete" asp-controller="team" asp-route-id="@item.Id" class="btn btn-@(item.IsDeleted ? "secondary" : "warning")">@(item.IsDeleted ? "Undo" : "SoftDelete")</a>
+                        <a asp-action="delete" asp-controller="team" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+
+                    </td>
+
+                </tr>
+            }
+            
+        </tbody>
+    </table>
+
+
+    <div class=" d-flex justify-content-center row" >
+        <nav aria-label="...">
+            <ul class="pagination">
+                <li class="page-item @(Model.HasPrev == true ? "" : "disabled")">
+                    <a class="page-link" asp-action="index" asp-controller="team" asp-route-page="@(Model.ActivePage -1) ">Previous</a>
+                </li>
+                @for (int i = 1; i <= Model.TotalPageCount; i++)
+                {
+                    <li class="page-item @(Model.ActivePage == i ? "active" : "")"><a class="page-link" asp-action="index" asp-controller="team" asp-route-page="@i">@i</a></li>
+                }
+                
+                <li class="page-item @(Model.HasNext == true ? "" : "disabled")">
+                    <a class="page-link" asp-action="index" asp-controller="team" asp-route-page="@(Model.ActivePage +1)">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\bin\Debug\net6.0\Lumia.Data.deps.json
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\bin\Debug\net6.0\Lumia.Data.runtimeconfig.json
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\bin\Debug\net6.0\Lumia.Data.dll
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\bin\Debug\net6.0\Lumia.Data.pdb
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\bin\Debug\net6.0\Lumia.Core.dll
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\bin\Debug\net6.0\Lumia.Core.pdb
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\Lumia.Data.csproj.AssemblyReference.cache
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\Lumia.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\Lumia.Data.AssemblyInfoInputs.cache
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\Lumia.Data.AssemblyInfo.cs
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\Lumia.Data.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\Lumia.Data.csproj.CopyComplete
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\Lumia.Data.dll
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\refint\Lumia.Data.dll
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\Lumia.Data.pdb
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\Lumia.Data.genruntimeconfig.cache
+C:\Users\II novbe\Documents\Visual Studio 2022\Lumia.Data\obj\Debug\net6.0\ref\Lumia.Data.dll
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\bin\Debug\net6.0\Lumia.Data.deps.json
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\bin\Debug\net6.0\Lumia.Data.runtimeconfig.json
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\bin\Debug\net6.0\Lumia.Data.dll
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\bin\Debug\net6.0\Lumia.Data.pdb
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\bin\Debug\net6.0\Lumia.Core.dll
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\bin\Debug\net6.0\Lumia.Core.pdb
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\Lumia.Data.csproj.AssemblyReference.cache
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\Lumia.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\Lumia.Data.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\Lumia.Data.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\Lumia.Data.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\Lumia.Data.csproj.CopyComplete
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\Lumia.Data.dll
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\refint\Lumia.Data.dll
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\Lumia.Data.pdb
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\Lumia.Data.genruntimeconfig.cache
+C:\Users\II novbe\Desktop\Lumia\Lumia.Data\obj\Debug\net6.0\ref\Lumia.Data.dll
